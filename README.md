@@ -29,6 +29,10 @@ There are a few requirements for every challenge or constraints aimed to break y
 
 **Note:** To take the challenge simply fork the repo and start coding. Please do not submit any completed code challenges via a pull request. The point of the challenges is to help you be a better developer and you or your team will be the judge of a success for each challenge.
 
+## Challenges
+
+- Challenge 0 - [Construct a Build Tool](https://github.com/justinhough/frontend-code-challenge/blob/master/challenge-0/instructions.md)
+
 
 ## Contribute to the Challenges
 
