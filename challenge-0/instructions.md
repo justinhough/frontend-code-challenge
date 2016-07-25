@@ -14,7 +14,7 @@ For this challenge you will be creating an automated build process using Node th
 2. Use Sass (SCSS) to build a semantic layout with floats without using a standard column-based layout.
 	- Use Sass nesting to construct the page as described under "Page Layout".
 
-3. Within `index.html` and using HTML5 standards build a simple pageas described under "Page Layout" and with these basic requirements:
+3. Within `index.html` and using HTML5 standards build a simple page as described under "Page Layout" and with these basic requirements:
 	- Make the layout responsive for all devices with a maximum width of `1000px` for inner content.
 	- Header and footer should have a solid background color and extend the full width of the page (or 100% of screen) while their inner contents are constrained to `1000px` wide.
 
