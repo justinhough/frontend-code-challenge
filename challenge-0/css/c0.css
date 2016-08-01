@@ -8,16 +8,14 @@
 .floatRight {
   float: right !important; }
 
-
 .clearFix {
-  display: block; 
-&:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden; }
-}
+  display: block; }
+  .clearFix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
 
 /*******************************************************************************************************************
 *  BASE                                                                                                            
@@ -27,13 +25,10 @@ html {
 
 body {
   color: #727272;
-  font: normal 13px "Helvetice Neue",Arial,Tahoma,Verdana; 
-p {
-  line-height: 1.5em;
-  margin-bottom: 15px; }
-
-}
-
+  font: normal 13px "Helvetice Neue",Arial,Tahoma,Verdana; }
+  body p {
+    line-height: 1.5em;
+    margin-bottom: 15px; }
 
 /**  H1 - H4                                                                                                         
 **********************/
@@ -46,7 +41,6 @@ h1 {
   font-size: 3.0em;
   color: #fff;
   font-weight: normal; }
-
 
 h2 {
   font-size: 1.1em;
@@ -61,8 +55,6 @@ h3 {
   text-shadow: 1px 1px 1px #fff;
   margin-bottom: 10px; }
 
-
-
 /** HEADER                                                                                                          
 ***********************/
 header {
@@ -70,36 +62,28 @@ header {
   line-height: 84px;
   background: #1a1a1a;
   position: relative;
-  z-index: 100; 
-
-a#logo {
-  font-size: 1.2em;
-  font-weight: bold;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none; 
- &:hover {
-  text-decoration: none;
-  color: #f7f7f7; }  
-    }
-}
-
+  z-index: 100; }
+  header a#logo {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none; }
+    header a#logo:hover {
+      text-decoration: none;
+      color: #f7f7f7; }
 
 /**  CONTENT                                                                                                         
 *******************/
 #content {
   padding: 40px 0 50px;
-  text-shadow: 1px 1px 1px #fff; 
-.cols {
-  margin-bottom: 30px; }
-}
-
-
-
+  text-shadow: 1px 1px 1px #fff; }
+  #content .cols {
+    margin-bottom: 30px; }
 
 /** FOOTER                                                                                                          
 *******************/
@@ -107,12 +91,10 @@ footer {
   padding: 30px 0;
   background: #1a1a1a;
   font-size: 0.85em;
-  color: #777; 
-  position:absolute;
-  bottom:0;
-  width:100%;
-}
-
+  color: #777;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 footer a, footer a:link, footer a:focus {
   color: #999;
@@ -120,14 +102,9 @@ footer a, footer a:link, footer a:focus {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out; 
-    &:hover{
-         color: #fff; 
-    }
-    
-}
-
-
+  transition: all 0.3s ease-in-out; }
+  footer a:hover, footer a:link:hover, footer a:focus:hover {
+    color: #fff; }
 
 /**Layout                                                                                                   
 *********************/
@@ -135,27 +112,22 @@ footer a, footer a:link, footer a:focus {
   margin: 0 auto;
   position: relative;
   max-width: 1000px;
-  padding: 0 20px; 
-}
+  padding: 0 20px; }
 
 .col {
   width: 48%;
   position: relative;
   margin-bottom: 20px; }
 
-
-
-
 /** Responsive design                                                                                                    
 **********************/
-
 @media (max-width: 600px) {
-  .col{
+  .col {
     width: 100%;
     max-width: 100%;
     float: none;
     margin: 0 0 30px !important; }
-      header {
+  header {
     height: 50px;
     line-height: 50px; }
   h1 {
@@ -166,12 +138,8 @@ footer a, footer a:link, footer a:focus {
     display: block;
     width: 100%;
     float: none;
-    margin-bottom: 20px; }
-    
-    
-    
-    
-   }
+    margin-bottom: 20px; } }
 
+/*# sourceMappingURL=c0.css.map */
 
 /*# sourceMappingURL=c0.css.map */
