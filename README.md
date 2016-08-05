@@ -33,10 +33,11 @@ There are a few requirements for every challenge or constraints aimed to break y
 
 - Challenge 0 - [Construct a Build Tool](https://github.com/justinhough/frontend-code-challenge/blob/master/challenge-0/instructions.md)
 - Challenge 1 - [Icons](https://github.com/justinhough/frontend-code-challenge/blob/master/challenge-1/instructions.md)
+- Challenge 2 - [Typography](https://github.com/justinhough/frontend-code-challenge/blob/master/challenge-1/instructions.md)
+
 
 ### Upcoming Challenges
 
-- Challenge 2 - Typography
 - Challenge 3 - Colors
 - Challenge 4 - Sized Banners
 - Challenge 5 - Header
