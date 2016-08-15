@@ -19,7 +19,7 @@ For this challenge, create a custom color palette using a set of 4 predefined co
 - red: `#d82430`
 - blue: `#005e95`
 - green: `#3f6b6e`
-- blue: `#0079bf`
+- orange: `#f96500`
 
 ## Resources
 
