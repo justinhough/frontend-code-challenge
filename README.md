@@ -35,14 +35,15 @@ There are a few requirements for every challenge or constraints aimed to break y
 - Challenge 1 - [Icons](https://github.com/justinhough/frontend-code-challenge/tree/master/challenge-1)
 - Challenge 2 - [Typography](https://github.com/justinhough/frontend-code-challenge/tree/master/challenge-2)
 - Challenge 3 - [Colors](https://github.com/justinhough/frontend-code-challenge/tree/master/challenge-3)
+- Challenge 4 - [Sized Banners](https://github.com/justinhough/frontend-code-challenge/tree/master/challenge-4)
+- Challenge 5 - [Site Header](https://github.com/justinhough/frontend-code-challenge/tree/master/challenge-5)
 
 ### Upcoming Challenges
 
-- Challenge 4 - Sized Banners
-- Challenge 5 - Header
-- Challenge 6 - Navigation
-- Challenge 7 - Partials
-- Challenge 8 - Summary Card
+- Challenge 6 - Summary Card
+- Challenge 7 - Pricing Table
+- Challenge 8 - Messaging
+- Challenge 9 - Partials
 
 
 ## Contribute to the Challenges
