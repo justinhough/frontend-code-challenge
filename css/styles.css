@@ -1,0 +1,49 @@
+/* reset */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box; }
+
+/* variables */
+/* mixins */
+.section_headertitle,
+.section_maincontent,
+.section_asidecontent,
+.section_footercontent {
+  max-width: 1000px; }
+
+header,
+footer {
+  width: 100%;
+  background: #fbcb14; }
+
+section:after,
+section:before {
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%; }
+
+section {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding: 10px; }
+
+section main,
+section aside {
+  float: left;
+  border: 1px solid red; }
+
+@media (max-width: 767px) {
+  section main,
+  section aside {
+    width: 100%;
+    margin-bottom: 10px; } }
+
+main {
+  width: 70%; }
+
+aside {
+  width: 30%; }
